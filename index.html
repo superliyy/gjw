@@ -1,0 +1,1196 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>购酒网</title>
+		<link rel="stylesheet" href="css/home.css" />
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css">
+		<script type="text/javascript" src="js/jquery-1.12.3.js" ></script>
+		<script type="text/javascript" src="js/jquery.cookie.js" ></script>
+		<script type="text/javascript" src="js/jquery.lazyload.js" ></script>
+		<script type="text/javascript" src="js/scrollView.js" ></script>
+		
+		
+	</head>
+	<body>
+		<!--侧边栏-->
+		<div class="sidebar">
+			<ul>
+				<li>
+					<span class="iconfont icon-wode"></span>
+					<em class="showCon">会员中心</em>
+					<i class="showJianTou"></i>
+				</li>
+				<li><span class="iconfont icon-gouwuche">购物车</span></li>
+				<li>
+					<span class="juan">券</span>
+					<em class="showCon">我的优惠劵</em>
+					<i class="showJianTou"></i>
+				</li>
+				<li>
+					<span class="iconfont icon-wuxing"></span>
+					<em class="showCon">我的收藏</em>
+					<i class="showJianTou"></i>
+				</li>
+				<li>
+					<span class="iconfont icon-daohang"></span>
+					<div class="showCode2 showCon">
+						<img class="codeImg lazy" data-original="img/APP.jpg" />
+						<p>下载手机版&nbsp;&nbsp;优惠更升级</p>
+					</div>
+					<i class="showJianTou1"></i>					
+				</li>
+				<li>
+					<span class="iconfont icon-unie60b"> </span>
+					<div class="showCon hot">
+						<div class="hotCon">
+							<a class="HY">会员内测</a>
+							<a class="GETOne">买一送一</a>
+							<a class="BUY">立即抢购</a>
+						</div>
+						<img class="hotImg" src="img/hot.jpg" />
+					</div>
+					<i class="showJianTou1"></i>
+					
+				</li>
+				<li>
+					<span class="iconfont icon-fuwuerji"></span>
+					<em class="showCon">客服电话</em>
+					<i class="showJianTou"></i>					
+				</li>
+				<li>
+					<span class="iconfont icon-shenhebijijishibenxiezi"></span>
+					<em class="showCon">用户反馈</em>
+					<i class="showJianTou"></i>
+				</li>
+				<li>
+					<span class="iconfont icon-xiangshangjiantouarrowup"></span>
+					<em class="showCon">返回顶端</em>
+					<i class="showJianTou"></i>
+				</li>
+				
+			</ul>
+		</div>
+		<!--侧边栏-->
+
+		<div class="top_wrapper">
+			<div class="top1 clearFloat">
+				<a class="app" href="#">
+					<i class="icon-daohang iconfont"></i>
+					<span>购酒网APP</span>
+					<i class="icon-xialajiantou iconfont"></i>
+					<div class="QR-code"><img src="img/APP.jpg" /></div>
+					<!--<p class="showAppJ"></p>-->
+				</a>
+				
+				<ul class="quick-link clearFloat">
+					<li class="loginReg">Hi,请
+						<a href="login.html" class="login">登录</a>/
+						<a href="register.html" class="register">注册</a>				
+					</li>
+					<li><a href="#"  class="noBorderRight">我的订单</a></li>
+					<li id="users" class="users">
+						<a href="#">用户中心<i class="iconfont icon-xialajiantou"></i></a>
+						<ul class="usersUl">
+							<li><a href="#">用户中心<i class="iconfont icon-xialajiantou"></i></a></li>
+							<li><a href="#">商品评论</a></li>
+							<li><a href="#">收藏夹</a></li>
+							<li><a href="#">我的电子劵</a></li>					
+						</ul>
+					</li>
+					<li><a href="#">在线客服</a></li>
+					<li><a href="#">帮助</a></li>
+					<li><a href="#" class="important">提意见</a></li>
+					<li><a href="#" class="noBorderRight important linkNumber"><i class="iconfont icon-dianhua"></i>400-722-1919</a></li>
+				</ul>
+			</div>		
+		</div>
+		<!--    top1          -->
+
+		<div class="top2">
+			<div class="top_activity">
+				<img src="img/banner.jpg"/>
+				<span>展开</span>
+			</div>
+			<div class="news_activity">
+				<i class="iconfont icon-guangbo"></i>
+				<a href="#">购酒锯划算 <em>全场九元起</em></a>
+				<span>关闭</span>
+			</div>
+			<div class="top_header clearFloat">
+				<h1 class="logo"><img src="img/hd_logo.jpg"/></h1>
+				<div class="haoli"><img src="img/haoli.gif"/></div>
+				
+				<div class="search-bar clearFloat">
+					<div class="search clearFloat">
+						<input class="search-text" type="text" />
+						<input class="sure" type="button" value="搜索" />
+					</div>
+					<ul class="search-select clearFloat">
+						<li><a href="#">茅台</a></li>
+						<li><a href="#">郎酒</a></li>
+						<li><a href="#">五粮液</a></li>
+						<li><a href="#">剑南春</a></li>
+						<li><a href="#">泸州老窖</a></li>
+						<li><a href="#">洋河</a></li>
+						<li><a href="#">茅台</a></li>						
+					</ul>
+					
+				</div>
+				<div class="shopping-cart">
+					<i class="iconfont icon-gouwuche"></i>
+					<span>我的购物车</span>
+					<i class="iconfont icon-jiantou"></i>
+				</div>
+			</div>
+			
+			<div class="nav clearFloat">
+				<h2>全部商品分类</h2>
+				<ul class="main-title clearFloat">
+					<li><a href="#" class="more-impor">首页</a></li>
+					<li><a href="#">特卖会</a></li>
+					<li><a href="#">进口</a></li>
+					<li><a href="#">商家采购</a></li>
+					<li><a href="#">高端收藏酒</a></li>
+					<li><a href="#">购酒主推</a></li>						
+				</ul>
+				<div class="dianli"><img src="img/dianli.gif"/></div>
+			</div>	
+		</div>
+		<!--    top2          -->
+		
+		<!--下移出现的导航栏-->
+		<div class="showNav-wrapper">
+			<div class="showNav clearFloat">
+				<h2><img src="img/showNav.jpg"/></h2>
+				<div class="search">
+						<input class="search-text" type="text" placeholder="请输入搜索关键字"/>
+						<input class="sure" type="button" value="搜索" />
+				</div>
+			</div>
+		</div>
+		
+
+		<!--     banner轮播图        -->
+		<div class="banner">
+			<div class="scrollView">
+			<ul class="list1 clearFloat">
+				<!--<li><img src="img/Banner/banner1.jpg"/></li>
+				<li><img src="img/Banner/banner2.jpg"/></li>
+				<li><img src="img/Banner/banner3.jpg"/></li>
+				<li><img src="img/Banner/banner4.jpg"/></li>
+				<li><img src="img/Banner/banner5.jpg"/></li>
+				<li><img src="img/Banner/banner6.jpg"/></li>
+				<li><img src="img/Banner/banner7.jpg"-->
+			</ul>
+			<ul class="list2 clearFloat">
+				<!--<li class="active">1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>5</li>
+				<li>6</li>
+				<li>7</li>				-->
+			</ul>
+			<ul class="banner-left">
+				<li class="banner-item">
+					<div class="banner-title">
+						<strong>
+							<a href="#">购酒直通车</a>
+						</strong>
+					</div>
+					<div class="banner-sTitle">
+						<a href="#">大坛美酒</a>
+						<a href="#">高端收藏</a>
+						<a href="#">送礼推荐</a>
+						<a href="#">整箱促销</a>
+						<a href="#">封顶49元</a>
+						<a href="#">婚宴用酒</a>	
+					</div>					
+				</li>
+				<li class="banner-item">
+					<div class="banner-title">
+						<strong>
+							<a href="#">白酒</a>
+						</strong>
+						<span class="iconfont icon-jiantou"></span>
+					</div>
+					<div class="banner-sTitle">
+						<a href="#">茅台</a>
+						<a href="#">五粮液</a>
+						<a href="#">郎酒</a>
+						<a href="#">剑南春</a>
+						<a href="#">国窖1573</a>
+						<a href="#">水井坊</a>
+						<a href="#">泸州老窖</a>						
+					</div>
+					<!--二级标题-->
+					<div class="showItemWrapper clearFloat">
+						<div class="showItemleft">
+							<div class="markItem clearFloat">
+								<div class="smallMark clearFloat"><h6>亏本清仓专区</h6><span class="iconfont icon-jiantou"></span></div>
+								<div class="smallMark clearFloat"><h6>高端收藏酒</h6><span class="iconfont icon-jiantou"></span></div>
+								<div class="smallMark clearFloat"><h6>陈年老酒专区</h6><span class="iconfont icon-jiantou"></span></div>
+								<div class="smallMark clearFloat"><h6>特卖会</h6><span class="iconfont icon-jiantou"></span></div>
+							</div>
+							<div class="smallBank">
+								<div class="smallBankTitle">品牌</div>
+								<ul class="smallBankList clearFloat">
+									<!--<li>茅台</li><li>茅台</li>-->
+								</ul>
+							</div>
+							<div class="smallOthers clearFloat">
+								<div class="smallFlavor">
+									<div class="smallFlavorTitle smallBankTitle">香型</div>
+									<ul class="smallFlavorList  clearFloat">
+									<!--<li>茅台</li><li>茅台</li>-->
+									</ul>
+								</div>
+								<div class="smallPlace">
+									<div class="smallPlaceTitle smallBankTitle">产地</div>
+									<ul class="smallPlaceList  clearFloat">
+									<!--<li>茅台</li><li>茅台</li>-->
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="showItemRight">
+							<img src="img/baijiu1.jpg"/>
+							<img src="img/baijiu2.jpg" />
+						</div>
+						<!--二级标题-->
+					</div>
+				</li>
+				<li class="banner-item">
+					<div class="banner-title">
+						<strong>
+							<a href="#">葡萄酒</a>
+						</strong>
+						<span class="iconfont icon-jiantou"></span>
+					</div>
+					<div class="banner-sTitle">
+						<a href="#">拉菲</a>
+						<a href="#">黄尾袋鼠</a>
+						<a href="#">奔富</a>
+						<a href="#">法比纳古堡</a>
+						<a href="#">张裕</a>
+						<a href="#">杰卡斯</a>	
+					</div>
+					<!--二级标题-->
+					<div class="showItemWrapper clearFloat">
+						<div class="showItemleft">
+							<div class="markItem clearFloat">
+								<div class="smallMark clearFloat"><h6>法国原装进口</h6><span class="iconfont icon-jiantou"></span></div>
+								<div class="smallMark clearFloat"><h6>澳大利亚原装进口</h6><span class="iconfont icon-jiantou"></span></div>
+								<div class="smallMark clearFloat"><h6>起泡酒香槟酒</h6><span class="iconfont icon-jiantou"></span></div>
+								
+							</div>
+							<div class="smallOthers clearFloat">
+								<div class="smallCountry">
+									<div class="smallCountryTitle smallBankTitle">产国</div>
+									<ul class="smallCountryList  clearFloat">
+									
+									</ul>
+								</div>
+								<div class="smallVarieties">
+									<div class="smallVarietiesTitle smallCountryTitle">品种</div>
+									<ul class="smallVarietiesList   clearFloat">
+										
+									</ul>
+								</div>
+								<div class="smallType">
+									<div class="smallTypeTitle smallCountryTitle">类型</div>
+									<ul class="smallTypeList  clearFloat">
+										
+									</ul>
+								</div>
+							</div>
+							<div class="smallBank2">
+								<div class="smallBankTitle2 smallCountryTitle">品牌</div>
+								<ul class="smallBankList2 clearFloat">
+									
+								</ul>
+							</div>
+							
+						</div>
+						<div class="showItemRight">
+							<img src="img/putaojiu1.jpg"/>
+							<img src="img/putaojiu2.jpg" />
+						</div>
+					</div>
+					<!--二级标题-->
+					
+				</li>
+				<li class="banner-item">
+					<div class="banner-title">
+						<strong>
+							<a href="#">洋酒</a>
+						</strong>
+						<span class="iconfont icon-jiantou"></span>
+						
+					</div>
+					<div class="banner-sTitle">
+						<a href="#">人头马</a>
+						<a href="#">芝华士</a>
+						<a href="#">皇家路易</a>
+						<a href="#">尊尼获加</a>
+						<a href="#">格兰菲迪</a>
+						<a href="#">百龄坛</a>	
+					</div>
+					<!--二级标题-->
+					<div class="showItemWrapper clearFloat">
+						<div class="showItemleft">
+							<div class="markItem clearFloat">
+								<div class="smallMark clearFloat"><h6>格兰菲迪</h6><span class="iconfont icon-jiantou"></span></div>
+								
+							</div>
+							<div class="smallBank3">
+								<div class="smallBankTitle">品牌</div>
+								<ul class="smallBankList3 clearFloat">
+									<!--<li>茅台</li><li>茅台</li>-->
+								</ul>
+							</div>
+							<div class="smallOthers clearFloat">
+								<div class="smallOthersL">
+									<div class="smallVari">
+										<div class="smallVariTitle smallBankTitle">品种</div>
+										<ul class="smallVariList  clearFloat">
+										<!--<li>茅台</li><li>茅台</li>-->
+										</ul>
+									</div>
+									<div class="smallPrice">
+										<div class="smallPriceTitle smallBankTitle">价格区间 </div>
+										<ul class="smallPriceList  clearFloat">
+										<!--<li>茅台</li><li>茅台</li>-->
+										</ul>
+									</div>
+									
+								</div>
+								
+								<div class="smallPic clearFloat">
+									<img class="firstPic"  src="img/yangjiu3.jpg"/>
+									<img src="img/yangjiu4.jpg" />
+								</div>
+							</div>
+						</div>
+						<div class="showItemRight">
+							<img src="img/yangjiu1.jpg"/>
+							<img src="img/yangjiu2.jpg" />
+						</div>
+					<!--二级标题-->
+				</li>
+				<li class="banner-item">
+					<div class="banner-title">
+						<strong>
+							<a href="#">黄酒</a>
+							<a href="#">养身酒</a>
+							<a href="#">啤酒</a>		
+						</strong>
+						<span class="iconfont icon-jiantou"></span>
+					</div>
+					<div class="banner-sTitle">
+						<a href="#">古越龙山</a>
+						<a href="#">女儿红</a>
+						<a href="#">唐宋</a>
+						<a href="#">劲酒</a>
+						<a href="#">竹叶青</a>
+					</div>
+					<!--二级标题-->
+					<div class="showItemWrapper clearFloat">
+						<div class="showItemleft clearFloat">
+							<div class="JiuWrapper">
+							<div class="huangjiu ">
+								<div class="huangjiuTitle smallBankTitle">黄酒 </div>
+								<ul class="huangjiuList firstJiu clearFloat">
+								
+								</ul>
+							</div>
+							<div class="huangjiuPrice ">
+								<div class="huangjiuPriceTitle smallBankTitle">黄酒价格区间 </div>
+								<ul class="huangjiuPriceList priceList  clearFloat">
+								
+								</ul>
+								<div class="jiuPic"><img src="img/huangjiu3.jpg"/></div>
+							</div>
+							</div>
+							
+							<div class="JiuWrapper ">
+							<div class="yangshengjiu ">
+								<div class="yangshengjiuTitle smallBankTitle">养身酒 </div>
+								<ul class="yangshengjiuList firstJiu clearFloat">
+								
+								</ul>
+							</div>
+							<div class="yangshenjiuPrice">
+								<div class="yangshenjiuPriceTitle smallBankTitle">养身酒价格区间 </div>
+								<ul class="yangshenjiuPriceList priceList clearFloat">
+								
+								</ul>
+								<div class="jiuPic"><img src="img/huangjiu4.jpg"/></div>
+								
+							</div>
+							</div>
+							
+							<div class="JiuWrapper lastJiuwrapper">
+							<div class="pijiu ">
+								<div class="pijiuTitle smallBankTitle">啤酒 </div>
+								<ul class="pijiuList firstJiu  clearFloat">
+								
+								</ul>
+								
+							</div>
+							<div class="pijiuPrice">
+								<div class="pijiuPriceTitle smallBankTitle">啤酒价格区间 </div>
+								<ul class="pijiuPriceList priceList  clearFloat">
+								
+								</ul>
+								<div class="jiuPic"><img src="img/huangjiu5.jpg"/></div>
+								
+							</div>
+							</div>
+							
+						</div>
+						<div class="showItemRight">
+							<img src="img/huangjiu1.jpg"/>
+							<img src="img/huangjiu2.jpg" />
+						</div>
+					<!--二级标题-->
+				</li>
+				<li class="banner-item">
+					<!--<div class="banner-title"></div>-->
+					<div class="banner-sTitle nomarginTop">
+						<a href="#">清仓</a>
+						<a href="#">酒具</a>
+						<a href="#">新品</a>
+						<a href="#">地狱老酒</a>	
+					</div>
+				</li>
+			</ul>
+			<div class="banner-right shine1"><img src="img/bannercase.png"/></div>
+			</div>
+		</div>
+		
+		
+		<div class="content-wrapper">
+			<div class="content">
+				<div class="perfer-wrap clearFloat">
+					<h2 class="perfer-title"><img src="img/prefer.png"/></h2>
+					<div class="preferential ">
+						<ul class="prefer clearFloat">
+							<!--<li class="clearFloat">
+								<img src="img/prefer1.gif"/>
+								<img src="img/prefer2.gif"/>
+								<img src="img/prefer3.gif"/>
+								<img src="img/prefer4.gif"/>
+							</li>
+							<li class="clearFloat">
+								<img src="img/prefer11.gif"/>
+								<img src="img/prefer22.gif"/>
+								<img src="img/prefer33.gif"/>
+								<img src="img/prefer44.gif"/>
+							</li>-->
+						</ul>
+						<div class="prefer-previous"></div>
+						<div class="prefer-next"></div>
+					</div>
+				</div>
+				
+				<!--goujiusangou-->
+				<ul class="flashBUY clearFloat">
+					<div class="flashBUY-left">
+						<div class="fBl-title">
+							<span>购酒闪购&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;</span>冰点特价  数量有限
+						</div>
+						<ul class="fBl-list clearFloat">
+							<li>
+								<img class="lazy"  data-original = ""/>
+								<div class="flash_text">
+									<a class="flash_title" href="#"></a>
+									<strong class="flash_price"></strong>
+									<div class="last_buy">
+										<span class="last_text">剩余:</span>
+										<div class="day">
+											<span>00</span>
+											<i>天</i>
+										</div>
+										<div class="hour">
+											<span>00</span>
+											<i>时</i>
+										</div>
+										<div class="minute">
+											<span>00</span>
+											<i>分</i>
+										</div>
+										<div class="second">
+											<div class="relative-wrapper">
+											<div class="relative">
+												<span class="r1">00</span>
+												<span class="r2">00</span>
+											</div>
+											</div>
+											<i>秒</i>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<img class="lazy"  data-original = "" />
+								<div class="flash_text">
+									<a class="flash_title" href="#"></a>
+									<strong class="flash_price"></strong>
+									<div class="last_buy">
+										<span class="last_text">剩余:</span>
+										<div class="day">
+											<span>00</span>
+											<i>天</i>
+										</div>
+										<div class="hour">
+											<span>00</span>
+											<i>时</i>
+										</div>
+										<div class="minute">
+											<span>00</span>
+											<i>分</i>
+										</div>
+										<div class="second">
+											<div class="relative-wrapper">
+											<div class="relative">
+												<span class="r1">00</span>
+												<span class="r2">00</span>
+											</div>
+											</div>
+											<i>秒</i>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<img class="lazy"  data-original = "" />
+								
+								<div class="flash_text">
+									<a class="flash_title" href="#"></a>
+									<strong class="flash_price"></strong>
+									<div class="last_buy">
+										<span class="last_text">剩余:</span>
+										<div class="day">
+											<span>00</span>
+											<i>天</i>
+										</div>
+										<div class="hour">
+											<span>00</span>
+											<i>时</i>
+										</div>
+										<div class="minute">
+											<span>00</span>
+											<i>分</i>
+										</div>
+										<div class="second">
+											<div class="relative-wrapper">
+											<div class="relative">
+												<span class="r1">00</span>
+												<span class="r2">00</span>
+											</div>
+											</div>
+											<i>秒</i>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<img class="lazy"  data-original = "" />
+								
+								<div class="flash_text">
+									<a class="flash_title" href="#"></a>
+									<strong class="flash_price"></strong>
+									<div class="last_buy">
+										<span class="last_text">剩余:</span>
+										<div class="day">
+											<span>00</span>
+											<i>天</i>
+										</div>
+										<div class="hour">
+											<span>00</span>
+											<i>时</i>
+										</div>
+										<div class="minute">
+											<span>00</span>
+											<i>分</i>
+										</div>
+										<div class="second">
+											<div class="relative-wrapper">
+											<div class="relative">
+												<span class="r1">00</span>
+												<span class="r2">00</span>
+											</div>
+											</div>
+										
+											<i>秒</i>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<img src="" />
+								<div class="flash_text">
+									<a class="flash_title" href="#"></a>
+									<strong class="flash_price"></strong>
+									<div class="last_buy clearFloat">
+										<span class="last_text">剩余:</span>
+										<div class="day clearFloat">
+											<span>00</span>
+											<i>天</i>
+										</div>
+										<div class="hour clearFloat">
+											<span>00</span>
+											<i>时</i>
+										</div>
+										<div class="minute clearFloat">
+											<span>00</span>
+											<i>分</i>
+										</div>
+										<div class="second clearFloat">
+											
+											<div class="relative-wrapper">
+											<div class="relative">
+												<span class="r1">00</span>
+												<span class="r2">00</span>
+											</div>
+											</div>
+											<i>秒</i>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="flashBUY-right">
+						<div class="fBl-title">
+							<span>购酒快讯&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;</span>更多
+						</div>
+						<div class="quick-wrapper">
+							<div class="quick-news">
+								<a href="#">
+									<b>【公告】</b>购酒女神节 全场满500减50
+								</a>
+								<a href="#">
+									<b>【公告】</b>购酒聚划算 全场9元起
+								</a>
+								<a href="#">
+									<b>【公告】</b>茅台镇馈送 舒心酱酒全场9.9元起
+								</a>
+								<a href="#">
+									<b>【公告】</b>购酒疯狂会员日 全场1折起售
+								</a>
+								<a href="#">
+									<b>【公告】</b>开春送礼三重奏 好酒任意拿
+								</a>
+							</div>	
+							<div class="quick-img"><img src="img/quick.jpg" /></div>	
+						</div>
+					</div>
+				</div>
+				
+				
+				<div class="jingbao clearFloat">
+					<img class="lazy"  data-original ="img/jingbao1.jpg" />
+					<img class="lazy"  data-original ="img/jingbao2.jpg" />
+					<img class="lazy"  data-original = "img/jingbao3.jpg" />
+				</div>
+			
+				<div class="recommend">
+					<div class="fBl-title">
+						<span>购酒推荐&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;</span>限时特惠
+					</div>
+					<div class="recom-wrapper clearFloat">
+						<div class="recom-left"><img src="img/recomend1.jpg"/></div>
+						<ul class="recom-center clearFloat">
+							<li >
+							<a href="#">
+								<h3></h3>
+								<div>
+									<p></p>
+									<span></span>
+								</div>
+								<img class="lazy"  data-original = ""/>
+							</a>	
+							</li>
+							<li >
+							<a href="#">
+								<h3></h3>
+								<div>
+									<p></p>
+									<span></span>
+								</div>
+								
+								<img class="lazy"  data-original = ""/>
+							</a>	
+							</li>
+							<li  class="noBorderRight">
+							<a href="#">
+								<h3></h3>
+								<div>
+									<p></p>
+									<span></span>
+								</div>
+								
+								<img class="lazy"  data-original = "img/recom3.jpg"/>
+							</a>	
+							</li>
+							<li >
+							<a href="#">
+								<h3></h3>
+								<div>
+									<p></p>
+									<span></span>
+								</div>
+								
+								<img class="lazy"  data-original = ""/>
+							</a>	
+							</li>
+							<li>
+							<a href="#">
+								<h3></h3>
+								<div>
+									<p></p>
+									<span></span>
+								</div>
+								
+								<img class="lazy"  data-original = ""/>
+							</a>	
+							</li>
+							<li class="noBorderRight">
+							<a href="#">
+								<h3></h3>
+								<div>
+									<p></p>
+									<span></span>
+								</div>
+								
+								<img class="lazy"  data-original = ""/>
+							</a>	
+							</li>
+						</ul>
+						<div class="recom-right"><img class="lazy"  data-original = "img/recomend2.jpg"/></div>
+					</div>
+				</div>
+				
+				<!--1F-->
+				<div class="spirit clearFloat">
+					<div class="Title">
+						<h2><span>1F</span>白酒馆</h2>
+						<div>更多</div>
+					</div>
+					<div class="spirit-wrapper clearFloat">
+						<div class="spirit-left">
+							<div class="spirit-left-top shine"><a href="#"><img src="img/spril1.jpg"/></a></div>
+							<ul class="spirit-left-list clearFloat">
+								<li><a href="#">五粮液</a></li>
+								<li><a href="#">高端收藏</a></li>
+								<li><a href="#">茅台专场</a></li>
+								<li><a href="#" class="noBorderRight">小酒迷情</a></li>
+								<li><a href="#">陈年老酒</a></li>
+								<li><a href="#">每周特卖</a></li>
+								<li><a href="#">郎酒专场</a></li>
+								<li><a href="#" class="noBorderRight">清仓专区</a></li>
+			
+							</ul>
+							<div class="spirit-left-bottom shine" ><a href="#"><img src="img/spril2.jpg"/></a></div>
+							
+						</div>
+						<div class="spirit-right">
+							<div class="spirit-right-top-wrapper">
+								<div class="spirit-right-top clearFloat">
+									<!--白酒的轮播图-->
+									<div class="scrollerBox">
+									<ul class="spirit-scrollView clearFloat">
+										<!--<li><img src="img/spriScro1.jpg"></li>
+										<li><img src="img/spriScro2.jpg"></li>-->
+								
+									</ul>
+									<ul class="circle">
+										<!--<li class="selectActive first"></li>
+										<li></li>-->
+									</ul>
+									<div class="spirit-previous"></div>
+									<div class="spirit-next"></div>
+									
+									</div>
+									<ul class="spirit-right-top-list baijiu-top-list clearFloat thesameWine">						
+										<!--<li><img src="img/sprir1.jpg"/></li>
+										<li><img src="img/sprir2.jpg"/></li>-->
+									</ul>
+								</div>
+								<ul class="spirit-right-bottom-list clearFloat baijiu-bottom-list thesameWine">
+									<!--<li><a href="#"><img src="img/sprir11.jpg"/></a></li>
+									<li><a href="#"><img src="img/sprir22.jpg"/></a></li>
+									<li><a href="#"><img src="img/sprir33.jpg"/></a></li>
+									<li><a href="#"><img src="img/sprir44.jpg"/></a></li>-->
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!--2F-->
+				<div class="spirit clearFloat">
+					<div class="Title">
+						<h2><span>2F</span>红酒馆</h2>
+						<div>更多</div>
+					</div>
+					<div class="spirit-wrapper clearFloat">
+						<div class="spirit-left">
+							<div class="spirit-left-top shine"><a href="#"><img class="lazy"  data-original = "img/redwinel1.jpg"/></a></div>
+							<ul class="spirit-left-list clearFloat">
+								<li><a href="#">五粮液</a></li>
+								<li><a href="#">高端收藏</a></li>
+								<li><a href="#">茅台专场</a></li>
+								<li><a href="#" class="noBorderRight">小酒迷情</a></li>
+								<li><a href="#">陈年老酒</a></li>
+								<li><a href="#">每周特卖</a></li>
+								<li><a href="#">郎酒专场</a></li>
+								<li><a href="#" class="noBorderRight">清仓专区</a></li>
+			
+							</ul>
+							<div class="spirit-left-bottom shine" ><a href="#"><img class="lazy"  data-original = "img/redwinel2.jpg"/></a></div>
+							
+						</div>
+						<div class="spirit-right">
+							<div class="spirit-right-top-wrapper">
+								<div class="spirit-right-top clearFloat">
+									<!--白酒的轮播图-->
+									<div class="scrollerBox">
+									<ul class="spirit-scrollView clearFloat">
+										<!--<li><img src="img/redwines1.jpg"></li>
+										<li><img src="img/redwines2.jpg"></li>-->
+								
+									</ul>
+									<ul class="circle">
+										<!--<li class="selectActive first"></li>
+										<li></li>-->
+									</ul>
+									<div class="spirit-previous"></div>
+									<div class="spirit-next"></div>
+									
+									</div>
+									<ul class="spirit-right-top-list putaojiu-top-list clearFloat thesameWine">						
+										<!--<li><a href="#"><img src="img/redwiner1.jpg"/></a></li>
+										<li><img src="img/redwiner2.jpg"/></a></li>-->
+									</ul>
+								</div>
+								<ul class="spirit-right-bottom-list clearFloat putaojiu-bottom-list thesameWine">
+									<!--<li><a href="#"><img src="img/redwiner11.jpg"/></a></li>
+									<li><a href="#"><img src="img/redwiner12.jpg"/></a></li>
+									<li><a href="#"><img src="img/redwiner13.jpg"/></a></li>
+									<li><a href="#"><img src="img/redwiner14.jpg"/></a></li>-->
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!--3F-->
+				<div class="spirit clearFloat">
+					<div class="Title">
+						<h2><span>3F</span>洋酒馆</h2>
+						<div>更多</div>
+					</div>
+					<div class="spirit-wrapper clearFloat">
+						<div class="spirit-left">
+							<div class="spirit-left-top shine"><a href="#"><img class="lazy"  data-original = "img/importl1.jpg"/></a></div>
+							<ul class="spirit-left-list clearFloat">
+								<li><a href="#">五粮液</a></li>
+								<li><a href="#">高端收藏</a></li>
+								<li><a href="#">茅台专场</a></li>
+								<li><a href="#" class="noBorderRight">小酒迷情</a></li>
+								<li><a href="#">陈年老酒</a></li>
+								<li><a href="#">每周特卖</a></li>
+								<li><a href="#">郎酒专场</a></li>
+								<li><a href="#" class="noBorderRight">清仓专区</a></li>
+			
+							</ul>
+							<div class="spirit-left-bottom shine" ><a href="#"><img class="lazy"  data-original = "img/importl2.jpg"/></a></div>
+							
+						</div>
+						<div class="spirit-right">
+							<div class="spirit-right-top-wrapper">
+								<div class="spirit-right-top clearFloat">
+									<!--白酒的轮播图-->
+									<div class="scrollerBox">
+									<ul class="spirit-scrollView clearFloat">
+										<!--<li><img src="img/imports1.jpg"></li>
+										<li><img src="img/imports2.jpg"></li>-->
+								
+									</ul>
+									<ul class="circle">
+										<!--<li class="selectActive first"></li>
+										<li></li>-->
+									</ul>
+									<div class="spirit-previous"></div>
+									<div class="spirit-next"></div>
+									
+									</div>
+									<ul class="spirit-right-top-list yangjiu-top-list clearFloat thesameWine">						
+										<!--<li><a href="#"><img src="img/importr1.jpg"/></a></li>
+										<li><img src="img/importr2.jpg"/></a></li>-->
+									</ul>
+								</div>
+								<ul class="spirit-right-bottom-list clearFloat yangjiu-bottom-list thesameWine">
+									<!--<li><a href="#"><img src="img/importr11.jpg"/></a></li>
+									<li><a href="#"><img src="img/importr12.jpg"/></a></li>
+									<li><a href="#"><img src="img/importr13.jpg"/></a></li>
+									<li><a href="#"><img src="img/importr14.jpg"/></a></li>-->
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+				<!--4F-->
+				<div class="spirit clearFloat">
+					<div class="Title">
+						<h2><span>4F</span>黄酒•养生酒•啤酒•茶叶馆</h2>
+						<div>更多</div>
+					</div>
+					<div class="spirit-wrapper clearFloat">
+						<div class="spirit-left">
+							<div class="spirit-left-top shine"><a href="#"><img class="lazy"  data-original = "img/otherwinel1.jpg"/></a></div>
+							<ul class="spirit-left-list clearFloat">
+								<li><a href="#">五粮液</a></li>
+								<li><a href="#">高端收藏</a></li>
+								<li><a href="#">茅台专场</a></li>
+								<li><a href="#" class="noBorderRight">小酒迷情</a></li>
+								<li><a href="#">陈年老酒</a></li>
+								<li><a href="#">每周特卖</a></li>
+								<li><a href="#">郎酒专场</a></li>
+								<li><a href="#" class="noBorderRight">清仓专区</a></li>
+			
+							</ul>
+							<div class="spirit-left-bottom shine" ><a href="#"><img class="lazy"  data-original = "img/otherwinel2.jpg"/></a></div>
+							
+						</div>
+						<div class="spirit-right">
+							<div class="spirit-right-top-wrapper">
+								<div class="spirit-right-top clearFloat">
+									<!--白酒的轮播图-->
+									<div class="scrollerBox">
+									<ul class="spirit-scrollView clearFloat">
+										<!--<li><img src="img/otherwines1.jpg"/></li>
+										<li><img src="img/otherwines2.jpg"/></li>-->
+								
+									</ul>
+									<ul class="circle">
+										<!--<li class="selectActive first"></li>
+										<li></li>-->
+									</ul>
+									<div class="spirit-previous"></div>
+									<div class="spirit-next"></div>
+									
+									</div>
+									<ul class="spirit-right-top-list clearFloat chayejiu-top-list thesameWine">						
+										<!--<li><a href="#"><img src="img/otherwiner1.jpg"/></a></li>
+										<li><img src="img/otherwiner2.jpg"/></a></li>-->
+									</ul>
+								</div>
+								<ul class="spirit-right-bottom-list clearFloat chayejiu-bottom-list thesameWine">
+									<!--<li><a href="#"><img src="img/otherwiner11.jpg"/></a></li>
+									<li><a href="#"><img src="img/otherwiner12.jpg"/></a></li>
+									<li><a href="#"><img src="img/otherwiner13.jpg"/></a></li>
+									<li><a href="#"><img src="img/otherwiner14.jpg"/></a></li>-->
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+				<!--高端收藏-->
+				<div class="highCollection spirit">
+					<div class="Title">
+						<h2><span>5F</span>高端收藏</h2>
+						<!--<div>更多</div>-->
+					</div>
+					<div class="highColl-top clearFloat">
+						<a href="#" class="highFirst"><img class="lazy"  data-original = "img/high11.jpg"/></a>
+						<a href="#"><img class="lazy"  data-original = "img/high1.jpg"/></a>
+						<a href="#"><img class="lazy"  data-original = "img/high2.jpg"/></a>
+						<a href="#"><img class="lazy"  data-original ="img/high3.jpg"/></a>
+						<a href="#"><img class="lazy"  data-original = "img/high4.jpg"/></a>
+				
+					</div>
+					<div class="highColl-bottom clearFloat">
+					
+						<a href="#"><img class="lazy"  data-original = "img/high01.jpg"/></a>
+						<a href="#"><img class="lazy"  data-original = "img/high02.jpg"/></a>
+						<a href="#"><img class="lazy"  data-original = "img/high03.jpg"/></a>
+					</div>
+				</div>
+				
+				<!--品牌馆-->
+				<div class="bank spirit">
+					<div class="Title">
+						<h2><span>6F</span>品牌馆</h2>
+						<div>查看所有品牌</div>
+					</div>
+					<ul class="allBank clearFloat">
+						<li><img class="lazy"  data-original = "img/bank11.jpg"/></li>
+						<li><img class="lazy"  data-original = "img/bank12.jpg"/></li>
+						<li><img class="lazy"  data-original = "img/bank13.jpg"/></li>
+						<li><img class="lazy"  data-original = "img/bank14.jpg"/></li>
+						<li><img class="lazy"  data-original = "img/bank15.jpg"/></li>
+						<li><img class="lazy"  data-original = "img/bank21.jpg"/></li>
+						<li><img class="lazy"  data-original = "img/bank23.jpg"/></li>
+						<li><img class="lazy"  data-original = "img/bank23.jpg"/></li>
+						<li><img class="lazy"  data-original = "img/bank24.jpg"/></li>
+						<li><img class="lazy"  data-original = "img/bank25.jpg"/></li>
+						<li><img class="lazy"  data-original = "img/bank31.jpg"/></li>
+						<li><img class="lazy"  data-original = "img/bank32.jpg"/></li>
+						<li><img class="lazy"  data-original = "img/bank33.jpg"/></li>
+						<li><img class="lazy"  data-original = "img/bank34.jpg"/></li>
+						<li><img class="lazy"  data-original = "img/bank35.jpg"/></li>
+						
+					</ul>
+				</div>
+				
+				<div class="footer">
+					<div class="footer1 clearFloat">
+						<ul class="numberLink clearFloat">
+							<li class="RX"><strong>客服热线</strong>7x14小时（08:00-22:00）&nbsp;贴心服务</li>
+							<li class="TEL"><img src="img/tele.jpg"/></li>
+							<li class="NUM"><strong >400-722-1919</strong></li>
+						</ul>
+						<div class="weixinLink"><img src="img/onlineServ.png" /></div>
+						<div class="addresslink clearFloat">
+							<ul class="address_word clearFloat">
+								<li>超万平方米仓储体验店</li>
+								<li>上海松江区茂盛路202弄18号</li>
+								<li>客服邮箱：kf@goujiuwang.com</li>
+								<li><b>扫描二维码下载APP，优惠升级</b></li>
+				
+							</ul>
+							<div class="erWeiMa"><img src="img/APP.jpg"/></div>
+						</div>
+					</div>
+					<div class="others">
+						<ul class="big-list clearFloat">
+							<li>
+								<h6>新手指南</h6>
+								<ul class="small-list">
+									<li><a href="#">用户协议</a></li>
+									<li><a href="#">常见问题</a></li>
+									<li><a href="#">网站物流流程</a></li>
+									<li><a href="#">会员制度</a></li>	
+								</ul>
+							</li>
+							<li>
+								<h6>如何付款</h6>
+								<ul class="small-list">
+									<li><a href="#">如何付款</a></li>
+									<li><a href="#">发票制度说明</a></li>
+									<li><a href="#">电子劵说明</a></li>
+									<li><a href="#">虚拟账户支付</a></li>	
+								</ul>
+							</li>
+							<li>
+								<h6>配送方式</h6>
+								<ul class="small-list">
+									<li><a href="#">配送收费标准</a></li>
+									<li><a href="#">配送时间</a></li>
+									<li><a href="#">货到付款支持城市</a></li>
+									<li><a href="#">实体加盟服务商</a></li>	
+								</ul class="small-list">
+							</li>
+							<li>
+								<h6>售后服务</h6>
+								<ul class="small-list">
+									<li><a href="#">如何办理退换货</a></li>
+									<li><a href="#">如何退换货</a></li>
+									<li><a href="#">联系客服</a></li>
+									
+									
+								</ul>
+							</li>
+							
+							<li>
+								<h6>关于我们</h6>
+								<ul class="small-list">
+									<li><a href="#">了解购酒网</a></li>
+									<li><a href="#">招兵买马</a></li>
+									<li><a href="#">联系我们</a></li>
+									<li><a href="#">隐私声明</a></li>	
+									<li><a href="#">友情链接</a></li>
+									
+								</ul>
+							</li>
+							<li>
+								<h6>合作共赢</h6>
+								<ul class="small-list small-yellow">
+									<li><a href="#">品牌馆</a></li>
+									<li><a href="#">商家采购  new</a></li>
+									<li><a href="#">网站推广  new</a></li>
+									<li><a href="#">供应商供货  new</a></li>	
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+			<div class="surePZ-wrapper">
+				<div class="surePZ"><img src="img/sure.jpg" /></div>
+				<div class="copy"><p>Copyright® 2009-2016 gjw.com, All Rights Reserved 上海线加下电子商务有限公司 版权所有</p></div>
+				<div class="otherslogo clearFloat">
+					<img src="img/1.jpg" />
+					<img src="img/2.jpg" />
+					<img src="img/3.jpg"  class="nomarginRight"/>
+					
+				</div>
+			</div>
+		</div>
+		
+		<!--楼梯效果-->
+		<ul class="stairs">
+			<li>
+				<a href="#" >
+					<div class="font">1F</div>
+					<div class="back"><span>白酒专馆</span></div>
+				</a>
+			</li>
+			<li>
+				<a href="#" >
+					<div class="font">2F</div>
+					<div class="back"><span>葡萄酒馆</span></div>
+				</a>
+			</li>	
+			<li>
+				<a href="#" >
+					<div class="font">3F</div>
+					<div class="back"><span>洋酒专馆</span></div>
+				</a>
+			</li>
+			<li>
+				<a href="#" >
+					<div class="font">4F</div>
+					<div class="back"><span>养生酒馆</span></div>
+				</a>
+			</li>
+			<li>
+				<a href="#" >
+					<div class="font">5F</div>
+					<div class="back"><span>高端收藏</span></div>
+				</a>
+			</li>	
+			<li>
+				<a href="#" >
+					<div class="font">6F</div>
+					<div class="back"><span>品牌推荐</span></div>
+				</a>
+			</li>	
+			<li class="iconfont icon-xiangshangjiantouarrowup"></li>
+			
+		</ul>
+		
+	</body>
+</html

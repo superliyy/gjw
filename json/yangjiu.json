@@ -1,0 +1,98 @@
+[
+	{
+		"id":"yj01",
+		"name":	"芝华士 12年威士忌 700ml 正品行货",
+		"unit":"￥",
+		"price":169,
+		"img":"img/yangjiu1/yangjiu1.jpg",
+		"other":[
+			"img/yangjiu1/yangjiu11.jpg",
+			"img/yangjiu1/yangjiu12.jpg",
+			"img/yangjiu1/yangjiu13.jpg",
+			"img/yangjiu1/yangjiu14.jpg"
+		   ]
+	},
+	
+	{
+		"id":"yj02",
+		"name":	"百龄坛 17年威士忌 700ml",
+		"unit":"￥",
+		"price":429,
+		"reprice":"624",
+		"img":"img/yangjiu2/yangjiu2.jpg",
+		"other":[
+			"img/yangjiu2/yangjiu21.jpg",
+			"img/yangjiu2/yangjiu22.jpg",
+			"img/yangjiu2/yangjiu23.jpg"
+			
+		   ]
+	},
+	
+	{
+		"id":"yj03",
+		"name":	"尊尼获加Johnnie Walker 红牌威士忌 700ml",
+		"unit":"￥",
+		"price":79,
+		"reprice":"219",
+		"img":"img/yangjiu3/yangjiu3.jpg",
+		"other":[
+			"img/yangjiu3/yangjiu31.jpg",
+			"img/yangjiu3/yangjiu32.jpg",
+			"img/yangjiu3/yangjiu33.jpg",
+			"img/yangjiu3/yangjiu34.jpg",
+			"img/yangjiu3/yangjiu35.jpg"
+			
+		   ]
+	},
+	{
+		"id":"yj04",
+		"name":	"麦卡伦 12年单一纯麦威士忌 700ml",
+		"unit":"￥",
+		"price":369,
+		"reprice":"808",
+		"img":"img/yangjiu4/yangjiu4.jpg",
+		"other":[
+			"img/yangjiu4/yangjiu41.jpg",
+			"img/yangjiu4/yangjiu42.jpg",
+			"img/yangjiu4/yangjiu43.jpg",
+			"img/yangjiu4/yangjiu44.jpg"
+			
+		   ]
+	},
+	
+	{
+		"id":"yj05",
+		"name":	"奥美加金 龙舌兰 墨西哥烈酒 700ml",
+		"unit":"￥",
+		"price":99,
+		"reprice":"140",
+		"img":"img/yangjiu5/yangjiu5.jpg",
+		"other":[
+			"img/yangjiu5/yangjiu51.jpg",
+			"img/yangjiu5/yangjiu52.jpg",
+			"img/yangjiu5/yangjiu53.jpg",
+			"img/yangjiu5/yangjiu54.jpg",
+			"img/yangjiu5/yangjiu55.jpg"
+			
+		   ]
+	},
+	
+	{
+		"id":"yj06",
+		"name":	"波士 草莓味 力娇酒 700ml",
+		"unit":"￥",
+		"price":59,
+		"reprice":"199",
+		"img":"img/yangjiu6/yangjiu6.jpg",
+		"other":[
+			"img/yangjiu6/yangjiu61.jpg",
+			"img/yangjiu6/yangjiu62.jpg",
+			"img/yangjiu6/yangjiu63.jpg",
+			"img/yangjiu6/yangjiu64.jpg",
+			"img/yangjiu6/yangjiu65.jpg"
+			
+		   ]
+	}
+
+
+]

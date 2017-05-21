@@ -1,0 +1,114 @@
+[
+
+	{
+		"id":"cy01",
+		"name":	"45度 竹叶青 牧童 475ml",
+		"unit":"￥",
+		"price":39,
+		"reprice":"119",
+		"img":"img/chaye1/chaye1.jpg",
+		"other":[
+			"img/chaye1/chaye11.jpg",
+			"img/chaye1/chaye12.jpg",
+			"img/chaye1/chaye13.jpg",
+			"img/chaye1/chaye14.jpg",
+			"img/chaye1/chaye15.jpg"
+		]
+	},
+	
+	
+	{
+		"id":"cy02",
+		"name":	"女儿红 八年陈酿（牡丹瓶） 500ml",
+		"unit":"￥",
+		"price":45,
+		"reprice":"89",
+		"img":"img/chaye2/chaye2.jpg",
+		"other":[
+			"img/chaye2/chaye21.jpg",
+			"img/chaye2/chaye22.jpg",
+			"img/chaye2/chaye23.jpg",
+			"img/chaye2/chaye24.jpg"
+		]
+	},
+	
+	
+	{
+		"id":"cy03",
+		"name":	"古越龙山 状元 红喜愿酒 350ml x2",
+		"unit":"￥",
+		"price":49,
+		"reprice":"109",
+		"img":"img/chaye3/chaye3.jpg",
+		"other":[
+			"img/chaye3/chaye31.jpg",
+			"img/chaye3/chaye32.jpg",
+			"img/chaye3/chaye33.jpg",
+			"img/chaye3/chaye34.jpg",
+			"img/chaye3/chaye35.jpg"
+		]
+	},
+	
+	{
+		"id":"cy04",
+		"name":	"女儿红 十年精品陈酿 1000ml",
+		"unit":"￥",
+		"price":145,
+		"reprice":"369",
+		"img":"img/chaye4/chaye4.jpg",
+		"other":[
+			"img/chaye4/chaye41.jpg",
+			"img/chaye4/chaye42.jpg",
+			"img/chaye4/chaye43.jpg",
+			"img/chaye4/chaye44.jpg",
+			"img/chaye4/chaye45.jpg"
+		]
+	},
+	
+	{
+		"id":"cy05",
+		"name":	"女儿红 18年佳酿【仿青铜】1000ml",
+		"unit":"￥",
+		"price":459,
+		"reprice":"592",
+		"img":"img/chaye5/chaye5.jpg",
+		"other":[
+			"img/chaye5/chaye51.jpg",
+			"img/chaye5/chaye52.jpg",
+			"img/chaye5/chaye53.jpg",
+			"img/chaye5/chaye54.jpg",
+			"img/chaye5/chaye55.jpg"
+			
+
+		]
+	},
+	
+	{
+		"id":"cy06",
+		"name":	"古越龙山 八年陈花雕 500ml",
+		"unit":"￥",
+		"price":39,
+		"reprice":"72",
+		"img":"img/chaye6/chaye6.jpg",
+		"other":[
+			"img/chaye6/chaye61.jpg",
+			"img/chaye6/chaye62.jpg",
+			"img/chaye6/chaye63.jpg",
+			"img/chaye6/chaye64.jpg",
+			"img/chaye6/chaye65.jpg"
+			
+
+		]
+	}
+	
+	
+	
+	
+
+
+
+
+
+
+
+]

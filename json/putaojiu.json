@@ -1,0 +1,115 @@
+
+[
+	{
+		"id":"pt01",
+		"name":	"智利 迷赛奥 高级赤霞珠干红葡萄酒（万轩士金十字干红）750ml",
+		"unit":"￥",
+		"price":148,
+		"reprice":"246",
+		"img":"img/putao1/putao1.jpg",
+		"other":[
+			"img/putao1/putao11.jpg",
+			"img/putao1/putao12.jpg",
+			"img/putao1/putao13.jpg",
+			"img/putao1/putao14.jpg",
+			"img/putao1/putao15.jpg"
+		]
+	},
+	
+	{
+		"id":"pt02",
+		"name":	"德国 华尔兹蓝牌 白葡萄酒 750ml",
+		"unit":"￥",
+		"price":49,
+		"reprice":"119",
+		"img":"img/putao2/putao2.jpg",
+		"other":[
+			"img/putao2/putao21.jpg",
+			"img/putao2/putao22.jpg",
+			"img/putao2/putao23.jpg",
+			"img/putao2/putao24.jpg",
+			"img/putao2/putao25.jpg"
+		]
+	},
+	
+	{
+		"id":"pt03",
+		"name":	"法国 哲麦兰酒庄 梅多克中级庄 干红葡萄酒 2013年 750ml",
+		"unit":"￥",
+		"price":169,
+		"reprice":"249",
+		"img":"img/putao3/putao3.jpg",
+		"other":[
+			"img/putao3/putao31.jpg",
+			"img/putao3/putao32.jpg",
+			"img/putao3/putao33.jpg",
+			"img/putao3/putao34.jpg",
+			"img/putao3/putao35.jpg"
+		]
+	},
+	
+	{
+		"id":"pt04",
+		"name":	"法国 百德诗歌庄园干红葡萄酒 2007 750ml",
+		"unit":"￥",
+		"price":399,
+		"reprice":"586",
+		"img":"img/putao4/putao4.jpg",
+		"other":[
+			"img/putao4/putao41.jpg",
+			"img/putao4/putao42.jpg",
+			"img/putao4/putao43.jpg",
+			"img/putao4/putao44.jpg"
+		]
+	},
+	
+	{
+		"id":"pt05",
+		"name":	"意大利 帝力 上帝之手 桃红色 鸡尾酒 750ml",
+		"unit":"￥",
+		"price":69,
+		"reprice":"168",
+		"img":"img/putao5/putao5.jpg",
+		"other":[
+			"img/putao5/putao51.jpg",
+			"img/putao5/putao52.jpg",
+			"img/putao5/putao53.jpg",
+			"img/putao5/putao54.jpg"
+		]
+	},
+	
+	{
+		"id":"pt06",
+		"name":	"美国 加州乐事 白葡萄酒 750ml",
+		"unit":"￥",
+		"price":49,
+		"reprice":"89",
+		"img":"img/putao6/putao6.jpg",
+		"other":[
+			"img/putao6/putao61.jpg",
+			"img/putao6/putao62.jpg",
+			"img/putao6/putao63.jpg",
+			"img/putao6/putao64.jpg"
+		]
+	}
+
+
+
+
+
+
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+

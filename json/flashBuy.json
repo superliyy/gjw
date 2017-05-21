@@ -1,0 +1,47 @@
+[	
+	{	
+		"id":"fb01",
+		"title":"52度 泸州老窖 八年陈头陈曲曲",
+		"price":"￥39",
+		"image":"img/sangou1.jpg",
+		"surplusTime":"2017-3-19"
+	},
+	
+
+	{
+		"id":"fb02",
+		"title":"52度  古井 经典老窖酒5000",
+		"price":"￥49",
+		"image":"img/sangou2.jpg",
+		"surplusTime":"2017-3-19"
+	},
+
+	{
+		"id":"fb03",
+		"title":"52度 泸州老窖 特曲（80版）",
+		"price":"￥499",
+		"image":"img/sangou3.jpg",
+		"surplusTime":"2017-3-19"
+	},
+
+
+	{
+		"id":"fb04",
+		"title":"美国 加州乐事  私人珍藏清强",
+		"price":"￥58",
+		"image":"img/sangou4.jpg",
+		"surplusTime":"2017-3-19"
+	},
+	
+	{	
+		"id":"fb05",
+		"title":"帝国 18年 威士忌 750ml",
+		"price":"￥399",
+		"image":"img/sangou5.jpg",
+		"surplusTime":"2017-3-19"
+	}
+	
+	
+	
+
+]

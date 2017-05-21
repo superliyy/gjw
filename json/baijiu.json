@@ -1,0 +1,93 @@
+[
+	{
+		"id":"bj01",
+		"name":	"52度 西凤 名酿V28 500ml",
+		"unit":"￥",
+		"price":69,
+		"reprice":"99",
+		"img":"img/baijiu1/baijiu.jpg",
+		"other":[
+			"img/baijiu1/baijiu11.jpg",
+			"img/baijiu1/baijiu12.jpg",
+			"img/baijiu1/baijiu13.jpg",
+			"img/baijiu1/baijiu14.jpg",
+			"img/baijiu1/baijiu15.jpg"
+		]
+	},
+	
+	{
+		"id":"bj02",
+		"name":	"52度 习酒 习水大曲 红运老牌 （2012年产） 450ml",
+		"unit":"￥",
+		"price":59,
+		"reprice":"169",
+		"img":"img/baijiu2/baijiu2.jpg",
+		"other":[
+			"img/baijiu2/baijiu21.jpg",
+			"img/baijiu2/baijiu22.jpg",
+			"img/baijiu2/baijiu23.jpg",
+			"img/baijiu2/baijiu24.jpg",
+			"img/baijiu2/baijiu25.jpg"
+		]
+	},
+	
+	{
+		"id":"bj03",
+		"name":	"53度 汾酒集团 清香古酿 1500ml",
+		"unit":"￥",
+		"price":159,
+		"reprice":"299",
+		"img":"img/baijiu3/baijiu3.jpg",
+		"other":[
+			"img/baijiu3/baijiu31.jpg",
+			"img/baijiu3/baijiu32.jpg",
+			"img/baijiu3/baijiu33.jpg",
+			"img/baijiu3/baijiu34.jpg"
+		]
+	},
+	
+	{
+		"id":"bj04",
+		"name":	"52度 五粮液控股 华彩人生 V60 500ml",
+		"unit":"￥",
+		"price":139,
+		"reprice":"288",
+		"img":"img/baijiu4/baijiu4.jpg",
+		"other":[
+			"img/baijiu4/baijiu41.jpg",
+			"img/baijiu4/baijiu42.jpg",
+			"img/baijiu4/baijiu43.jpg"
+		]
+	},
+	
+	{
+		"id":"bj05",
+		"name":	"52度 剑南春 鉴藏级 礼盒 680ml",
+		"unit":"￥",
+		"price":479,
+		"reprice":"599",
+		"img":"img/baijiu5/baijiu5.jpg",
+		"other":[
+			"img/baijiu5/baijiu51.jpg",
+			"img/baijiu5/baijiu52.jpg",
+			"img/baijiu5/baijiu53.jpg",
+			"img/baijiu5/baijiu54.jpg",
+			"img/baijiu5/baijiu55.jpg"
+		]
+	},
+	
+	{
+		"id":"bj06",
+		"name":	"52度 泸州老窖 特曲60版（原瓶）500ml",
+		"unit":"￥",
+		"price":459,
+		"reprice":"999",
+		"img":"img/baijiu6/baijiu6.jpg",
+		"other":[
+			"img/baijiu6/baijiu61.jpg"
+			
+		]
+	}
+
+
+]
